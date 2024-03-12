@@ -1,0 +1,105 @@
+body {
+    font-family: SoDo Sans;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 75px;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.navbar-items {
+    padding-left: 24px;
+}
+
+.navbar-items:hover {
+    color: #00653e;
+    cursor: pointer;
+}
+
+.first {
+    padding-left: 40px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding-right: 4px;
+}
+
+.signIn, .joinNow {
+    font-size: 0.9rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 4px 13px;
+}
+
+.findAStore-button {
+    display: flex;
+}
+
+.findAStore-button:hover {
+    color: #6c6c6c;
+    fill: #6c6c6c;
+    cursor: pointer;
+}
+
+.findAStore {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.joinNow {
+    margin-left: 19px;
+    background-color: black;
+    color: white;
+}
+
+.joinNow:hover{
+    background-color: #3e3e3e;
+    cursor: pointer;
+}
+
+.signIn {
+    margin-left: 35px;
+    padding-top: 5px;
+}
+
+.signIn:hover{
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 0;
+}
+
+.image {
+    max-width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.banner2 {
+    max-width: 100%;
+}
